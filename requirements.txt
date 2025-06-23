@@ -17,3 +17,5 @@ requests
 python-dotenv
 streamlit
 pysqlite3-binary
+fastapi
+uvicorn
