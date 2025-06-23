@@ -1,5 +1,9 @@
 ### REFRESHES CHROMADB ON EVERY USER QUERY AND LOGS IT ###
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 import streamlit as st
 import os
 from dotenv import load_dotenv
