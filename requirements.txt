@@ -1,0 +1,19 @@
+langchain
+langchain-community
+langchain-openai
+langchain-chroma
+openai
+chromadb
+tiktoken
+python-docx
+openpyxl
+python-pptx
+networkx
+pypdf
+unstructured
+pillow
+pytesseract
+requests
+python-dotenv
+streamlit
+# pysqlite3-binary
