@@ -1,6 +1,5 @@
 ### MORE ACCURATE CHUNKS EXTRACTION , NO UUID SCENE FOR EACH CHUNK ###
 
-
 import os, requests, shutil, tempfile, json, uuid
 from io import BytesIO
 from typing import Generator, Tuple, List
