@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 from fastapi.responses import PlainTextResponse
-from create_vectordb4 import main as full_refresh
+from create_vectordb import main as full_refresh
 import threading, time
 
 app = FastAPI()
